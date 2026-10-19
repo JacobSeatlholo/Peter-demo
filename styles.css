@@ -316,6 +316,7 @@ a { color: var(--clay-dark); }
 .practice__media img {
   border-radius: var(--radius);
   border: 1px solid var(--hairline);
+  max-width: 430px;   /* keep near-native resolution for the real portrait */
 }
 .practice__media figcaption {
   margin-top: 0.8rem;
